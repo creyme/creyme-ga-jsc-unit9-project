@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Unit 9: Project</title>
+   <!-- boostrap css -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+    <!-- <link href="custom.css" rel="stylesheet"> -->
+
+    <style type="text/css">
+      .header-text {
+        text-align: center;
+
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 25%;
+        width: 50%;
+        object-fit: cover;
+      }
+    </style>
+</head>
+
+<body>
+
+    <!-- Content here -->
+        <!-- Header here -->
+        <section class="header-text">
+          <h1>Monk's Cafe</h1>
+          <p>The Coffee Shop</p>
+        </section>
+        <!-- End Header here -->
+
+        <!-- Hero image -->
+        <section>
+          <div class="container">
+            <img src="http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg">
+          </div>
+        </section>
+        <!-- End Hero image -->
+        <br>
+        <!-- Reservation here -->
+        <section id="reservations" class="header-text">
+          <h3>Reservations</h3>
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-header">Make a Reservation</div>
+                  <div class="card-body">
+                    <form>
+                      <div class="form-group">
+                        <input id="name" type="text" placeholder="Name">
+                        <input id="Day" type="text" placeholder="Day">
+                      </div>
+                      <button type="button" class="btn btn-lg btn-outline-primary">Confirm</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-header">Existing Reservations</div>
+                  <div class="card-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th  scope="col">Name</th>
+                          <th  scope="col">Day</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Name here</td>
+                          <td>Day here</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- End Reservation here -->
+        <br>
+        <!-- Map here -->
+        <section class="header-text">
+          <h3>Come Dine with Us</h3>
+          <div class="container">
+            <div class="row">
+              <div id="map" class="col-md-12" style="height:50vh"></div>
+            </div>
+          </div>
+        </section>
+        <!-- End Map here -->
+        <br>
+        <!-- Reviews here -->
+        <section class="header-text">
+          <h3>Customer Reviews</h3>
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm">
+                <div class="card">
+                  <img class="card-img-top" style="width: 100%;" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Jerry Seinfeld, on The BIG Salad</h5>
+                    <p class="card-text">“Big lettuce, big carrots, tomatoes like volleyballs.”</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card">
+                  <img class="card-img-top" style="width: 100%;" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Jerry Seinfeld, on The BIG Salad</h5>
+                    <p class="card-text">“Big lettuce, big carrots, tomatoes like volleyballs.”</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card">
+                  <img class="card-img-top" style="width: 100%;" src="http://circuits-assets.generalassemb.ly/prod/asset/5474/jerry.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Jerry Seinfeld, on The BIG Salad</h5>
+                    <p class="card-text">“Big lettuce, big carrots, tomatoes like volleyballs.”</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- End Reviews here -->
+        <br>
+
+    <!-- End Content here -->
+    </div>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+      <!-- custom js -->
+      <script src="jsc/main.js"></script>
+      <!-- google maps -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap" async defer></script>
+
+  </body>
+</html>
